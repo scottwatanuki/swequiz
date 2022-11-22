@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>Scott Watanuki</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <form action="results.html" method="get">
+            <h1>What do your preferences say about the type of software engineer you would best fit?</h1>
+            <p>Your preferences can guide you in the right career path. Answer these question to find out what type of software engineer is best suited for you!</p>
+
+            <div>
+                <label for="fname" id="question">What is your name?</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+
+            <div>
+                <label for="amount" id="question">How many programming languages are you proficient in?</label>
+                <input type="number" id="amount" name="amount" step="1">
+            </div>
+
+            <div>
+                <p>Which programming languages are you proficient in?</p>
+                <input type="checkbox" id="html/css" name="languages" value="html/css">
+                <label for="html/css">HTML/CSS</label>
+
+                <input type="checkbox" id="js" name="languages" value="js">
+                <label for="js">JavaScript</label>
+
+                <input type="checkbox" id="python" name="languages" value="python">
+                <label for="python">Python</label>
+
+                <input type="checkbox" id="c" name="languages" value="c">
+                <label for="c">C</label>
+
+                <input type="checkbox" id="java" name="languages" value="java">
+                <label for="java">Java</label>
+            </div>
+
+            <div>
+                <p>What's your favorite framework?</p>
+                <input type="radio" id="react" name="frameworks" value="react">
+                <label for="react">React</label>
+
+                <input type="radio" id="node" name="frameworks" value="node">
+                <label for="node">Node</label>
+
+                <input type="radio" id="pytorch" name="frameworks" value="pytorch">
+                <label for="pytorch">PyTorch</label>
+
+                <input type="radio" id="unity" name="frameworks" value="unity">
+                <label for="unity">Unity</label>
+
+                <input type="radio" id="grails" name="frameworks" value="grails">
+                <label for="grails">Grails</label>
+            </div>
+
+            <div>
+                <p>What's your favorite thread?</p>
+                <input type="radio" id="people" name="threads" value="people">
+                <label for="people">People</label>
+
+                <input type="radio" id="sysarch" name="threads" value="sysarch">
+                <label for="sysarch">Systems & Architecture</label>
+
+                <input type="radio" id="intel" name="threads" value="intel">
+                <label for="intel">Intelligence</label>
+
+                <input type="radio" id="media" name="threads" value="media">
+                <label for="media">Media</label>
+
+                <input type="radio" id="devices" name="threads" value="devices">
+                <label for="devices">Devices</label>
+            </div>
+
+            <div>
+                <p>What field of CS are you most interested in?</p>
+                <input type="radio" id="hci" name="field" value="hci">
+                <label for="hci">Human Computer Interaction</label>
+
+                <input type="radio" id="architecture" name="field" value="architecture">
+                <label for="architecture">Architecture</label>
+
+                <input type="radio" id="ai" name="field" value="ai">
+                <label for="ai">Artificial Intelligence</label>
+
+                <input type="radio" id="graphics" name="field" value="graphics">
+                <label for="graphics">Graphics</label>
+
+                <input type="radio" id="robo" name="field" value="robo">
+                <label for="robo">Robotics</label>
+            </div>
+
+            <div>
+                <p>What is your hobby?</p>
+                <input type="radio" id="drawing" name="hobby" value="drawing">
+                <label for="drawing">Drawing</label>
+
+                <input type="radio" id="origami" name="hobby" value="origami">
+                <label for="origami">Origami</label>
+
+                <input type="radio" id="puzzles" name="hobby" value="puzzles">
+                <label for="puzzles">Puzzles</label>
+
+                <input type="radio" id="gaming" name="hobby" value="gaming">
+                <label for="gaming">Gaming</label>
+
+                <input type="radio" id="lego" name="hobby" value="lego">
+                <label for="lego">Legos</label>
+            </div>
+
+            <div>
+                <input type="submit" id="submit-btn" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
