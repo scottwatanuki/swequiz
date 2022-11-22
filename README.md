@@ -1,4 +1,4 @@
-# software engineering quiz
+# Software Engineering Quiz
 
 What do your preferences say about the type of software engineer you would best fit?
 
